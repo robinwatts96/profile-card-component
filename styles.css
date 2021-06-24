@@ -5,4 +5,19 @@ body {
     background: url(images/bg-pattern-card.svg);
     background-size: 1300%;
     background-position: 1% 0%;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-main {
+    border: black 1px solid;
+    height: 66vh;
+    width: 90vw;
+    /* margin: 0 auto; */
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+    /* align-self: center; */
 }
