@@ -35,6 +35,7 @@ body {
     text-align: center;
     margin-top: 0;
     border: 0.0001px blue solid;
+    position: relative;
 }
 
 .stats {
@@ -52,4 +53,7 @@ span {
 
 img {
     border: 2px white solid;
+    border-radius: 50%;
+    position: absolute;
+    left: 4;
 }
