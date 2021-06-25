@@ -21,3 +21,13 @@ body {
     height: 66vh;
     width: 90vw;
 }
+
+.card-top {
+    background: url(images/bg-pattern-card.svg);
+    height: 40%;
+}
+
+.card-bottom {
+    height: 60%;
+    background-color: white;
+}
