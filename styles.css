@@ -33,6 +33,11 @@ body {
     text-align: center;
 }
 
+.stats {
+    display: flex;
+    justify-content: space-around;
+}
+
 
 
 span {
