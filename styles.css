@@ -17,6 +17,7 @@ body {
 
 .card-main {
     border: black 1px solid;
+    border-radius: 20px;
     height: 55vh;
     width: 90vw;
 }
@@ -26,6 +27,8 @@ body {
     background-size: cover;
     height: 40%;
     border: 1px green solid;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
     margin-bottom: 0;
     /* padding: 0; */
     /* border-radius: 50%; */
@@ -38,6 +41,8 @@ body {
     margin-top: 0;
     border: 0.0001px blue solid;
     position: relative;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .stats {
