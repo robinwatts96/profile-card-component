@@ -45,24 +45,35 @@ body {
 .name {
     margin-top: 0;
     padding-top: 4em;
-    height: 40%;
-    border-bottom: 1px grey solid;
+    height: 30%;
+    border-bottom: 1px hsl(0, 0%, 89%) solid;
+}
+
+h1 {
+    margin-top: 0em;
+    font-size: 1.05em;
+    font-weight: 1000;
+}
+
+.name h2 {
+    font-size: 0.9em;
+    color: hsl(0, 0%, 59%);
+}
+
+span {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
 }
 
 .stats {
-    height: 60%;
+    height: 65%;
     display: flex;
     justify-content: space-around;
     font-size: 60%;
 }
 
-h1 {
-    margin-top: 0em;
-    font-size: 0.9em;
-}
-
-span {
-    font-weight: 400;
+.stat {
+    margin-top: 1em;
 }
 
 img {
