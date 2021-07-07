@@ -94,4 +94,12 @@ span {
     img {
         left: 165px;
     }
+
+    h1 {
+        font-size: 1.25em;
+    }
+
+    .stats {
+        font-size: 75%;
+    }
 }
