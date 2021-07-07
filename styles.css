@@ -42,6 +42,15 @@ body {
     border-bottom-left-radius: 20px;
 }
 
+
+img {
+    border: 6px white solid;
+    border-radius: 50%;
+    position: absolute;
+    left: 120px;
+    top: -50px;
+}
+
 .name {
     margin-top: 0;
     padding-top: 4em;
@@ -76,10 +85,13 @@ span {
     margin-top: 1em;
 }
 
-img {
-    border: 6px white solid;
-    border-radius: 50%;
-    position: absolute;
-    left: 120px;
-    top: -50px;
+/* Media */
+@media only screen and (min-width: 1440px) {
+    .card-main {
+        width: 30vw;
+    }
+
+    img {
+        left: 165px;
+    }
 }
